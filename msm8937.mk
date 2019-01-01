@@ -220,9 +220,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-impl \
-    android.hardware.light@2.0-service \
-    lights.msm8937
+    android.hardware.light@2.0-service.xiaomi_sdm439
 
 # Low power Whitelist
 PRODUCT_COPY_FILES += \
