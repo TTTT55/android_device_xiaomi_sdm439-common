@@ -590,6 +590,12 @@
         <item>mobile_cbs,12,0,2,300000,true</item>
         <item>bluetooth,7,7,2,-1,true</item>
         <item>ethernet,9,9,4,-1,true</item>
+
+    <!-- The list of components which should be automatically disabled for a specific device. -->
+    <string-array name="config_deviceDisabledComponents" translatable="false">
+        <item>com.google.android.gms/com.google.android.gms.nearby.messages.service.NearbyMessagesService</item>
+        <item>com.google.android.googlequicksearchbox/com.google.android.hotword.service.HotwordService</item>
+        <item>com.google.android.gms/com.google.android.gms.nearby.discovery.service.DiscoveryService</item>
     </string-array>
 
     <!-- This string array should be overridden by the device to present a list of radio
