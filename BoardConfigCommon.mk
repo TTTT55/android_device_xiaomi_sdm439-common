@@ -166,6 +166,9 @@ BOARD_ROOT_EXTRA_SYMLINKS := \
     /vendor/firmware_mnt:/firmware \
     /mnt/vendor/persist:/persist
 
+# Properties
+TARGET_SYSTEM_PROP += $(VENDOR_PATH)/system.prop
+
 # QCOM
 BOARD_USES_QCOM_HARDWARE := true
 TARGET_USE_SDCLANG := true
