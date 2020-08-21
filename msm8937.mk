@@ -364,12 +364,16 @@ PRODUCT_PACKAGES += \
 # WiFi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
+    libcld80211 \
+    libQWiFiSoftApCfg \
     hostapd \
     libqsap_sdk \
     libwpa_client \
     wificond \
+    dhcpcd.conf \
     wcnss_service \
-    wpa_supplicant
+    wpa_supplicant \
+    wpa_supplicant.conf
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/aoa_cldb_falcon.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_falcon.bin \
